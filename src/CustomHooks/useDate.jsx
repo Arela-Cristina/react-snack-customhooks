@@ -18,7 +18,7 @@ export default function useDate() {
 
     useEffect(() => {
         const idInterval = setInterval(() => setCurrentDate(new Date()), 1000)
-
+        return () => clearInterval(idInterval);
     }, [])
 
 
