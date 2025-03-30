@@ -1,6 +1,7 @@
 
 import Snack1 from "./Page/Snack-1"
 import Snack2 from "./Page/Snack-2"
+import Snack3 from "./Page/Snack-3"
 
 function App() {
 
@@ -13,6 +14,10 @@ function App() {
       <hr></hr>
 
       <Snack2 />
+
+      <hr></hr>
+
+      <Snack3 />
     </>
   )
 }
